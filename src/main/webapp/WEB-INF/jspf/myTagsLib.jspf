@@ -1,0 +1,4 @@
+<%-- library tag--%>
+<%@ taglib prefix="myLibTag" tagdir="/WEB-INF/tags" %>
+<%-- file tag--%>
+<%@ taglib prefix="myFileTag" uri="/WEB-INF/tld/myFileTag.tld" %>
