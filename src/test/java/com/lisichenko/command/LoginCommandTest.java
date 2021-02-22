@@ -42,6 +42,7 @@ public class LoginCommandTest {
         Account account = new Account();
         account.setEmail("admin@db.com");
         account.setPassword("356a192b7913b04c54574d18c28d46e6395428ab");
+        account.setRoleId(1);
         when(dbManagerMock.getAccount("admin@db.com")).thenReturn(account);
         Command command = new LoginCommand();
 

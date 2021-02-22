@@ -48,7 +48,7 @@ public class Account implements Entity {
     }
 
     public void setRoleId(int roleId) {
-        this.roleId = roleId - 1;
+        this.roleId = roleId;
     }
 
     public String getCreateTime() {
